@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Quantum-Optics-1:Single-Photons]]></title>
+    <url>%2F2018%2F12%2F22%2FQuantum-Optics-1-Single-Photons%2F</url>
+    <content type="text"><![CDATA[阿兰·阿斯佩先生的量子光学课程真是非常有趣，现在Coursera上推出了这一系列课程的第一部分，Quantum Optics 1 : Single Photons。这一部分注重于用基础的量子化方法构筑量子光学体系，是量子光学中非常基础的内容，从单模光量子化到多模量子化，从单光子表征到单光子探测，从波粒二象性到互补原理。 课程地址：https://www.coursera.org/learn/quantum-optics-single-photon/ 以下是它的官方介绍：This course gives you access to basic tools and concepts to understand research articles and books on modern quantum optics. You will learn about quantization of light, formalism to describe quantum states of light without any classical analogue, and observables allowing one to demonstrate typical quantum properties of these states. These tools will be applied to the emblematic case of a one-photon wave packet, which behaves both as a particle and a wave. Wave-particle duality is a great quantum mystery in the words of Richard Feynman. You will be able to fully appreciate real experiments demonstrating wave-particle duality for a single photon, and applications to quantum technologies based on single photon sources, which are now commercially available. The tools presented in this course will be widely used in our second quantum optics course, which will present more advanced topics such as entanglement, interaction of quantized light with matter, squeezed light, etc…So if you have a good knowledge in basic quantum mechanics and classical electromagnetism, but always wanted to know:• how to go from classical electromagnetism to quantized radiation,• how the concept of photon emerges,• how a unified formalism is able to describe apparently contradictory behaviors observed in quantum optics labs,• how creative physicists and engineers have invented totally new technologies based on quantum properties of light,then this course is for you. 附上我的结业证书：]]></content>
+      <tags>
+        <tag>Quantum</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[WebChatRoom]]></title>
     <url>%2F2018%2F08%2F20%2FWebChatRoom%2F</url>
     <content type="text"><![CDATA[本文及其中程序仅供演示（如果程序未正常显示，您可能需要允许此网站加载未知脚本）]]></content>
