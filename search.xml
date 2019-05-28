@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[20190528154231]]></title>
+    <url>%2F2019%2F05%2F28%2F20190528154231%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[【游戏】IBM ‘Hello Quantum’]]></title>
     <url>%2F2019%2F05%2F27%2F%E3%80%90%E6%B8%B8%E6%88%8F%E3%80%91IBM-%E2%80%98Hello-Quantum%E2%80%99%2F</url>
-    <content type="text"><![CDATA[今天为大家介绍一款由IBM公司推出的一款手机游戏‘Hello Quantum’]]></content>
+    <content type="text"><![CDATA[今天为大家介绍一款由IBM公司推出的一款手机游戏‘Hello Quantum’。 游戏中你可以操作特定的量子逻辑门来实现量子态的变化。 上图展示了游戏内景，游戏正中间是整个两量子比特系统的状态，左下角和右下角的白色高亮区域表示的是量子比特本身（黑色代表量子比特0，白色代表量子比特1，无色代表它处在0和1的某种叠加状态），较暗区域为量子比特之间的关联特性（黑色代表其所关联的量子比特相同，白色代表不同，无色代表不确定）。左上角为目标状态，我们需要通过系统周围的量子逻辑门将其演化成要求的状态。 如果想深入了解这个游戏，可以访问游戏设计者Dr James Wootton的引导网站https://medium.com/qiskit/hello-quantum-2c1c00fe830chttps://medium.com/qiskit/hello-quantum-2c1c00fe830c或者Hello Quantum官网查阅相关资料 这个游戏设计的精巧，但它并不完全是两量子比特计算系统的仿真，与真实的量子系统有不少出入，如果这个游戏激发起来你对量子计算的兴趣不妨可以试试IBM的5量子比特量子计算机和量子仿真器，设计或验证量子算法，感受未来科技。量子计算一定不会让你失望 下面附上B站的游戏演示视频及链接 https://www.bilibili.com/video/av53837706/]]></content>
       <tags>
         <tag>技术</tag>
         <tag>Quantum</tag>
